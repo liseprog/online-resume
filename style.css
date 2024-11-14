@@ -1,0 +1,42 @@
+.background-color {
+    background-color: #ECE6DA;
+}
+
+.header-text {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3D3D3D;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 600;
+    color: #3D3D3D;
+}
+
+.section-text {
+    font-family: "Inria Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #3D3D3D;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.first-button {
+    color: #ECE6DA;
+    background-color: #9b7b63 !important;
+    border-color: transparent !important;
+    outline: none !important;
+}
+
+.second-button {
+    color: #ECE6DA;
+    background-color: #d1bdac !important;
+    border-color: transparent !important;
+    outline: none !important;
+}
