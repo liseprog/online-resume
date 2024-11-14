@@ -13,91 +13,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section id="introduction" class="background-color header-text">
-        <div class="background col-xxl-8 px-4 py-5">
+<body class="background-color">
+    <section id="introduction" class="text">
+        <div class="container px-4 py-5 mb-10 ali">
             <div class="row flex-lg-row align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                <img src="images/profile.png" class="d-block ms-auto" alt="profile-picture" width="240" height="315" loading="lazy">
+                  <img src="images/profile.png" class="d-block" alt="profile-picture" width="240" height="315" loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, my name is Lise  </h1>
-                <p class="lead section-text">I’m a Sofware Developer based in Oslo. <br >
+                <h2 class="display-5 fw-light lh-1 mb-3 header">Hi, my name is Lise  </h1>
+                <p class="lead header-text">I’m a Sofware Developer based in Oslo. <br >
                     Currently crafting code and consulting at Capgemini. </p>
                 </div>
             </div>
         </div>
     </section>
     
-    <section id="work-experience" class="header-text">
-      <div class="container border-bottom px-4 py-5 mb-10">
-        <h3 class="pb-2 section-header">Work Experience</h3>
+    <section id="work-experience" class="text">
+      <div class="container  px-4 py-5 mb-10">
+        <h3 class="pb-2 fw-light section-header">Work Experience</h3>
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
           <div class="col d-flex align-items-start">
             <div>
-              <h3 class="mb-0 fs-4 tesxt-body-emphasi">System Engineer - Avinor Flysikring</h3>
+              <h3 class="header-paragraph">System Engineer - Avinor Flysikring</h3>
               <p>September 2019 - November 2022</p>
-              <p class="section-text">Managing and further developing ATM (Air Traffic Management) systems. Worked in a team with a primary focus on integration, where high security, quality, and performance are essential.</p>
+              <p class="text">Managing and further developing ATM (Air Traffic Management) systems. Worked in a team with a primary focus on integration, where high security, quality, and performance are essential.</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
             <div>
-              <h3 class="mb-0 fs-4 tesxt-body-emphasi">Backend Developer Consultant - Capgemini</h3>
+              <h3 class="header-paragraph">Backend Developer Consultant - Capgemini</h3>
               <p>November 2022 - as of today</p>
-              <p class="section-text">Consulting work with clients from both the public and private sectors. Primarily worked as a basckend developer.</p>
+              <p class="text">Consulting work with clients from both the public and private sectors. Primarily worked as a basckend developer.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="tools-and-skills" class="header-text">
-        <div class="container border-bottom px-4 py-5 mb-5">
-            <h3 class="pb-2 section-header">Tools and skills</h3>
+    <section id="tools-and-skills" class="text">
+        <div class="container px-4 py-5 mb-5">
+            <h3 class="pb-2 fw-light section-header">Tools and skills</h3>
             <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
               <div class="col d-flex align-items-start">
                     <div>
-                      <h3 class="mb-0 fs-4 tesxt-body-emphasi">Frameworks</h3>
-                      <p class="section-text">RestApi, Soap, Postman, gRPC, Protobuf, Kafka, ActiveMq, Spring, SpringBoot, Maven, Gradle, Tomcat, JUnit, MUnit, PyTest, Pact, Pactflow, Logback, 
+                      <h3 class="header-paragraph">Frameworks</h3>
+                      <p class="text">RestApi, Soap, Postman, gRPC, Protobuf, Kafka, ActiveMq, Spring, SpringBoot, Maven, Gradle, Tomcat, JUnit, MUnit, PyTest, Pact, Pactflow, Logback, 
                         Slf4j, ELK Stack, Grafana, Splunk, MongoDb, OracleDb, Hazelcast, Mulesoft, Anypoint Studio, IntelliJ, Visual Studio Code, Git, GitHub Copilot, GitLab, 
                         GitHub Action, Jenkins, Nexus Server, Artifactory, AWS, Jira, Crucible.</p>
                     </div>
               </div>
         
               <div class="col">
-                <div class="row row-cols-1 row-cols-sm-2 g-4">
-                  <div class="col d-flex flex-column gap-2">
-                    <h3 class="mb-0 fs-4 text-body-emphasis">Programming languanges</h3>
-                    <p class="section-text">Java, Python, JavaScript, Bash, YAML</p>                  </div>
+                <div class="row row-cols-1 row-cols-sm-2">
+                  <div class="col d-flex flex-column">
+                    <h3 class="header-paragraph">Programming languanges</h3>
+                    <p class="text">Java, Python, JavaScript, Bash, YAML</p>                  
+                  </div>
+        
+                  <div class="col d-flex flex-column">
+                    <h3 class="header-paragraph">Methods</h3>
+                    <p class="text">Scrum, Kanban, Object-Oriented Programming, CI/CD, DevOps, Test-Driven Development, Domain-Driven Design, Event, Contract Testing</p>
+                  </div>
+        
+                  <div class="col d-flex flex-column">
+                    <h3 class="header-paragraph">Architecture</h3>
+                    <p class="text">Monoliths and microservices, integration systems, Event-driven architecture, On-Premis and cloud</p>
+                  </div>
         
                   <div class="col d-flex flex-column gap-2">
-                    <h3 class="mb-0 fs-4 text-body-emphasis">Methods</h3>
-                    <p class="section-text">Scrum, Kanban, Object-Oriented Programming, CI/CD, DevOps, Test-Driven Development, Domain-Driven Design, Event, Contract Testing</p>
-                    </div>
-        
-                  <div class="col d-flex flex-column gap-2">
-                    <h3 class="mb-0 fs-4 text-body-emphasis">Architecture</h3>
-                    <p class="section-text">Monoliths and microservices, integration systems, Event-driven architecture, On-Premis and cloud</p>
-                    </div>
-        
-                  <div class="col d-flex flex-column gap-2">
-                    <h3 class="mb-0 fs-4 text-body-emphasis">Operative Systems</h3>
-                    <p class="section-text">Linux, MacOS, Windows</p>
-                    </div>
+                    <h3 class="header-paragraph">Operative Systems</h3>
+                    <p class="text">Linux, MacOS, Windows</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
     </section>
 
-    <section id="certifications" class="header-text">
-      <div class="container border-bottom px-4 py-5 mb-10">
-        <h3 class="pb-2 section-header">Certifications</h3>
+    <section id="certifications">
+      <div class="container  px-4 py-5 mb-10">
+        <h3 class="pb-2 fw-light section-header">Certifications</h3>
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
           <div class="col d-flex align-items-start">
             <div>
-              <h3 class="mb-0 fs-4 tesxt-body-emphasi">Oracle Certified Associate, Java SE 8 Programmer</h3>
-              <p class="section-text">
+              <h3 class="header-paragraph">Oracle Certified Associate, Java SE 8 Programmer</h3>
+              <p class="text">
                 <br >
                 Issued: 2019
                 <ul>
@@ -111,8 +112,8 @@
           </div>
           <div class="col d-flex align-items-start">
             <div>
-              <h3 class="mb-0 fs-4 tesxt-body-emphasi">AWS Certified Developer, DVA-C01</h3>
-              <p class="section-text">
+              <h3 class="header-paragraph">AWS Certified Developer, DVA-C01</h3>
+              <p class="text">
                 <br >
                 Issued: 2022
                 <ul>
@@ -128,32 +129,13 @@
       </div>
     </section>
 
-    <section id="links" class="header-text">
-      <div class="text-secondary text-center">
-        <div class="py-5">
-          <h3 class="pb-2 section-header">Get in touch</h3>
-          <div class="col-lg-6 mx-auto">
-            <p class="mb-4 section-text">Follow me on LinkedIn and GitHub</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="https://www.linkedin.com/in/lisemayle/" target="_blank">
-                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 first-button section-text">LinkedIn</button>
-              </a>
-              <a href="https://github.com/liseprog" target="_blank">
-                <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 second-button section-text">GitHub</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="footer" class="header-text background-color">
-      <footer class="py-5 mt-5 border-top">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="public/my-hobbies.html" class="nav-link px-2 text-body-secondary">Hobbies</a></li>
-          <li class="nav-item"><a href="public/contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+    <section id="footer" class="text background-color">
+      <footer class="py-5 mt-5">
+        <ul class="nav justify-content-center  pb-3 mb-3">
+          <li class="nav-item"><a href="phttps://www.linkedin.com/in/lisemayle/" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+          <li class="nav-item"><a href="https://github.com/liseprog" class="nav-link px-2 text-body-secondary">GitHub</a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Lise May Le @liseprog</p>
+        <p class="text-center text-body-secondary border-top pt-4">© 2024 Lise May Le @liseprog</p>
       </footer>
     </section>
 
